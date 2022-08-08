@@ -13,7 +13,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="stylesheet" href="./css/styles.css"/>
 </head>
-
+        
 <body>
   <!--Шапка сайта-->
    <header class="header">
@@ -42,6 +42,9 @@
 <h1 class="hero-header hero">Эффективные решения для вашего бизнеса</h1>
 <button class="button order" type="button" data-modal-open>Заказать услугу</button>
 
+
+</div>
+</section>
 <div class="backdrop is-hidden" data-modal>
   <div class="modal">
     <p>
@@ -50,12 +53,44 @@
     <button class="close" data-modal-close> 
       <svg class="" width="11" height="11"><use href="./images/sprite2.svg#icon-Vector"></use> </svg>
     </button>
+    <div class="okoshko">
+      <h2 class="form-title">Залиште свої дані, ми вам передзвонимо</h2>
+  <form class="form">
+  
+  <div class="form-field">
+      <input type="text" class="form-input" name="name" id="name" /> 
+      <label for="name" class="form-label">Ім'я</label>
+      <span class="icon icon-name"></span>
+  </div>
+  
+  <div class="form-field">
+      <input type="tel" class="form-input" name="tel" id="tel" />
+      <label for="tel" class="form-label">Телефон </label>
+  </div>
+  
+  <div class="form-field">
+      <input type="email" class="form-input" name="email" id="email" />
+      <label for="email" class="form-label">Пошта</label>
+  </div>
+  
+  <div class="form-field">
+  <label class="form-label" for="comment">Коментар</label>
+  <textarea   class="comment" name="comment" id="comment" cols="" placeholder="Введіть текст"></textarea> </div>
+  
+  <div class="form-field">
+      <input type="checkbox" class="form-input" name="policy" id="policy">
+      <label for="policy">Погоджуюся з розсилкою та приймаю  Умови договору </label>
+  </div>
+  
+  <button class="submit" type="submit">Відправити</button>
+  
+  </form> 
+  
+  </div>
   </div>
 </div>
 
 
-       </div>
-     </section>
 
    <!--особенности-->
       <section class="page-advantages section"> 
