@@ -79,11 +79,14 @@
   <label class="form-label" for="comment">Коментар</label>
   <textarea   class="comment" name="comment" id="comment" cols="" placeholder="Введіть текст"></textarea> </div>
   
-  <div class="form-field">
-      <input type="checkbox" class="form-input" name="policy" id="policy">
-      <label for="policy">Погоджуюся з розсилкою та приймаю  Умови договору </label>
-  </div>
-  
+
+  <div class="policy">
+ <label>
+  <input class="checkinput" type="checkbox">
+  <span class="checkbox"></span> Погоджуюся з розсилкою та приймаю <a href="#" class="terms"> Умови договору</a>
+ </label>
+</div>
+
   <button class="submit" type="submit">Відправити</button>
   
   </form> 
@@ -227,10 +230,13 @@
 </div>
 <div class="weare part">
   <ul class="footer-column"> <p class="social-title">Підпишіться на розсилку</p></ul>
-    <ul class=""> 
-      <div class="form-field">
+      <div class="">
+        <ul class="messaging"> 
+        <li> <form class="form">
         <input type="email" class="form-input email-input" name="email" id="email"placeholder="E-mail" />
-        <label for="email" class="form-label"> </label>
+        <label for="email" class="form-label"> </label> </li>
+        <li><button class="submit" type="submit submit2">Підписатися</button> <span class="icon-send"></span></li>
+        </form>
     </div>
     
   </ul>
