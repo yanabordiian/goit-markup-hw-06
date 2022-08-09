@@ -214,14 +214,17 @@ position:relative;
     -webkit-appearance: none;
     -moz-appearance:none; }
     .checkbox {position: absolute;
+        left:52px;
+        bottom:19%;
+        transform:translateY(-45%);
         width:1em;
         height:1em;
  padding-left:-51px;;
         background-color:#2196F3 ;
         
     }
-    .policy {padding-left:51px;
-        color: #757575; }
+    .policy {padding-left:35px; 
+        color: #757575;margin-bottom: 30px; }
     .terms {color:#2196F3; text-decoration: underline;}
 
 
