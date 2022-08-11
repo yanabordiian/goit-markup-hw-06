@@ -231,9 +231,9 @@ position:relative;
         height:15px;
         transform:translateY(-50%);
         padding-left:-51px;
-        background-image: url(./images/иконки/checkbox.svg);
+        background-image: url(../images/иконки/checkbox.svg);
     }
-    .checkinput:checked + .checkbox {background-image: url(./images/иконки/icon-check.svg);}
+    .checkinput:checked + .checkbox {background-image: url(../images/иконки/icon-check.svg);}
     .policy { padding-left:35px; 
         color: #757575;margin-bottom: 30px; }
     .terms {position:relative;color:#2196F3; text-decoration: underline;}
